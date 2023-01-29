@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url("../Image_Detail/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Landing_Page_Logo{
+    margin:20px;
+    gap:15px;
+    display: flex;
+    flex-direction: row;
+    background:none;
+}
+
+.img{
+    max-width: 100px;
+    max-height:15vh;
+    margin-top:30px;
+}
+
+p{
+    margin-top: 40px;
+}
+
+
+
+#header {
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    height: 8vh;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Detail_Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    margin:50px 40px;
+}
+
+
+#ul-navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 40px 25px 40px 25px;
+
+}
+
+#ul-navbar li {
+    padding: 35px;
+}
+
+.group-section {
+    margin: 30px 20px 50px 0;
+}
+
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    word-spacing: 5px;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    line-height:50px;
+}
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    text-indent: 4px;
+}
+
+
+

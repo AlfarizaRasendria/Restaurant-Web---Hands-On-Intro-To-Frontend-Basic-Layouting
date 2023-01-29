@@ -1,0 +1,214 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+}
+
+body {
+        background-color: #1b1b32;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        width: 100%;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+}
+
+.page-wrapper {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../Image_Home_Page/Background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        background-position: center;
+        position: relative;
+}
+
+
+
+#header {
+        top: 0;
+        left: 0;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: fixed;
+        height: 8vh;
+        margin-bottom: 100px;
+        justify-content: space-between;
+        align-items: center;
+}
+
+#header-img {
+        object-fit: cover;
+        width: 500px;
+        height: 8vh;
+        margin-left: 0;
+        padding-left: 0;
+}
+
+.Landing_Page_Logo{
+        margin:20px;
+        gap:15px;
+        display: flex;
+        flex-direction: row;
+        background:none;
+}
+
+#ul-navbar {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 40px 25px 40px 25px;
+
+}
+
+#form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+}
+
+#ul-navbar li {
+        padding: 35px;
+}
+
+.group-section {
+        margin: 30px 20px 50px 0;
+}
+
+.container {
+        display: flex;
+        flex-direction: column;
+        margin: 100px auto;
+        width: 100%;
+        max-width: 1000px;
+}
+
+#Menu-Link{
+        color:white;
+        text-decoration: none;
+}
+
+
+
+
+
+.nav-link {
+        color: white;
+        text-decoration: none;
+}
+
+h2 {
+        word-spacing: 5px;
+        margin-top: 100px;
+        display: flex;
+        text-align: center;
+        line-height:50px;
+}
+
+
+#Reservation {
+        display: flex;
+}
+
+#Reservation h2 {
+        margin: 100px auto 15px;
+}
+
+.menu {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 30px 50px 30px;
+        flex-wrap: wrap;
+}
+
+.menu:hover{
+        cursor: pointer;
+        border: 2px solid white;
+        background-color:tomato;
+}
+
+.menu p,
+.menu h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+}
+
+a{
+        color:white;
+        text-decoration: none;
+}
+
+
+.block {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+
+#email {
+        margin-bottom: 12px;
+        width: 300px;
+        height: 4vh;
+        padding-left: 8px;
+}
+
+input:focus{
+        outline:none;
+}
+
+#submit {
+        background-color: orange;
+        width: 12.5%;
+        text-transform: uppercase;
+        font-weight: 900;
+        height: 35px;
+}
+
+#footer {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        max-width: 1000px;
+        margin: 30px auto;
+        position: relative;
+}
+
+#ul-footer {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap:100px;
+}
+
+
+.footer-link {
+        text-decoration: none;
+        color: white;
+}
+
+nav a:hover,
+.footer-link:hover {
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+        text-indent: 4px;
+}
+
+
+
+.Menu-pict{
+        width:auto;
+        max-width:10vw;
+        height:10vh;
+        object-fit:contain;
+        left:0;
+}
