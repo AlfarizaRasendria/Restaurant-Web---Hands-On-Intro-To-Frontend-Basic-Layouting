@@ -26,6 +26,20 @@ body {
 }
 
 
+#notif{
+        margin:auto;
+        text-align: center;
+        visibility: hidden;
+        display: flex;
+        flex-direction: row;
+        width:600px;
+        background-color: red;
+}
+
+
+#notif h4{
+        padding:30px;
+}
 
 #header {
         top: 0;
@@ -47,6 +61,22 @@ body {
         height: 8vh;
         margin-left: 0;
         padding-left: 0;
+}
+
+.Menu{  
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+}
+
+#menu_title{
+        text-align: center;
+        visibility: hidden;
+        margin-top: 0;
+        margin-bottom: 30px;
+
 }
 
 .Landing_Page_Logo{
@@ -96,7 +126,9 @@ body {
 }
 
 
-
+#Search-icon{
+        color:white;
+}
 
 
 .nav-link {
@@ -113,13 +145,20 @@ h2 {
 }
 
 
-#Reservation {
+#List_Menu {
+        height: 100px;
         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:nowrap;
+        margin-bottom: 40px;
 }
 
-#Reservation h2 {
-        margin: 100px auto 15px;
+.search-icon{
+        margin:100px 0 0 30px;
 }
+
 
 .menu {
         display: flex;
@@ -160,6 +199,13 @@ a{
         padding-left: 8px;
 }
 
+input{  
+        text-align: center;
+        width:250px;
+        height: 30px;
+        margin:7.5px;
+
+}
 input:focus{
         outline:none;
 }
@@ -211,4 +257,11 @@ nav a:hover,
         height:10vh;
         object-fit:contain;
         left:0;
+}
+
+.column-display{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
